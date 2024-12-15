@@ -1,0 +1,35 @@
+// Name: Ayushkumar Vipulbhai Patel
+// Seneca Student ID: 114473226
+// Seneca email: apatel574@myseneca.ca
+// Date of completion: 2023/12/02
+
+// I confirm that I am the only author of this file
+//   and the content was created entirely by me.
+
+Reflect.txt
+
+Project Reflection:
+
+This term project provided a comprehensive opportunity to apply and enhance my C++ Object Oriented programming skills. The project involved simulating an assembly line with multiple stations, which required the implementation of various modules.
+
+Milestone 1:
+In Milestone 1, I implemented and tested the Utilities and Station classes. The Utilities module focused on parsing input files uniformly, providing essential functionality for all objects in the simulation system. The Station module, representing a station on the assembly line, managed specific item information and customer orders. This milestone laid the foundation for the subsequent milestones.
+
+Milestone 2:
+Milestone 2 introduced the CustomerOrder module, responsible for processing customer orders as they move through the assembly line. The CustomerOrder class was designed to manage order information, including items, and implemented functionalities like checking order completion and filling items at stations. This milestone added complexity to the project, requiring careful handling of dynamic memory and order processing logic.
+
+Milestone 3:
+The final milestone, Milestone 3, involved implementing and testing the Workstation and LineManager modules. The Workstation module represented active stations on the assembly line and managed the processing of customer orders. The LineManager class configured the assembly line and moved orders along it, tracking the progress of each iteration. This milestone integrated all components, emphasizing the flow of customer orders through the entire assembly line.
+
+Challenges Faced:
+- Managing dynamic memory: Handling dynamically allocated memory for items and orders required careful implementation to avoid memory leaks or undefined behavior.
+- Configuring the assembly line: Properly setting up the assembly line based on input files and ensuring correct linkage between workstations posed a challenge.
+- Iterative order processing: Implementing the logic for moving orders through the assembly line in iterations required attention to detail and thorough testing.
+
+Lessons Learned:
+- Enhanced understanding of Object Oriented Programming (OOP) principles in a real-world application.
+- Improved skills in memory management and resource handling in C++.
+- Gained experience in implementing complex systems with multiple interacting components.
+- Practiced effective use of C++ features such as dynamic memory allocation, class inheritance, and polymorphism.
+
+Overall, this project was a valuable learning experience that deepened my understanding of C++ programming and OOP concepts. The structured milestones provided a clear path for development, and the challenging aspects of the project contributed significantly to my skill development. Moving forward, I will apply these gained skills to more advanced programming projects.
